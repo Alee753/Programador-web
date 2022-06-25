@@ -6,9 +6,40 @@ h3{
     color: brown;
     font-family: Arial;
 }
-div{
+li{
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+}
+p{
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+}
+#contenedor{
     width: 1000px;
-    background-color: rgb(192, 221, 238);
-    margin-left: 12%;
-    
+    background-color: rgba(178, 196, 202, 0.932);
+    margin-left: 12%; 
+    border: 3px solid #6950ff;
+}
+#verde{
+    width: 1000px;
+    background-color: rgb(166, 166, 223);
+
+}
+#rojo{
+    width: 1000px;
+    background-color: rgb(166, 166, 223);
+}
+#azul{
+    width: 1000px;
+    background-color: rgb(166, 166, 223);
+}
+#amarillo{
+    width: 1000px;
+    background-color: rgb(166, 166, 223);
+}
+#violeta{
+    width: 1000px;
+    background-color: rgb(166, 166, 223);
 }

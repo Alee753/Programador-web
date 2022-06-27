@@ -1,45 +1,54 @@
-h1{
+h1 {
     color: brown;
     font-family: Arial;
 }
-h3{
+
+h3 {
     color: brown;
     font-family: Arial;
 }
-li{
+
+li {
     color: black;
     font-family: Arial;
     font-size: 14px;
 }
-p{
+
+p {
     color: black;
     font-family: Arial;
     font-size: 14px;
 }
-#contenedor{
+
+#contenedor {
     width: 1000px;
     background-color: rgba(178, 196, 202, 0.932);
-    margin-left: 12%; 
+    margin-left: 12%;
     border: 3px solid #6950ff;
 }
-#verde{
+
+#verde {
     width: 1000px;
     background-color: rgb(166, 166, 223);
 
 }
-#rojo{
+
+#rojo {
     width: 1000px;
     background-color: rgb(166, 166, 223);
 }
-#azul{
+
+#azul {
     width: 1000px;
     background-color: rgb(166, 166, 223);
 }
-#amarillo{
+
+#amarillo {
     width: 1000px;
     background-color: rgb(166, 166, 223);
 }
-#violeta{
+
+#violeta {
     width: 1000px;
     background-color: rgb(166, 166, 223);
 }

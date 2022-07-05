@@ -18,8 +18,8 @@ else if (distancia > 30000 && distancia <= 100000) {
     document.write(`Su medio de transporte correspode en Auto, ` + distancia + ` metros`);
 }
 
-else if(distancia >100000){
+else if (distancia > 100000) {
     document.write(`Su medio de transporte corresponde en Avion, ` + distancia + ` metros`);
-}else{
+} else {
     document.write(`Error!, no se pudo calcular correctamente su distancia`)
 }

@@ -1,30 +1,21 @@
-.cuadrado {
-    width: 150px;
-    /* Ancho de 150 píxeles */
-    height: 150px;
-    /* Alto de 150 píxeles */
-    background: red;
-    /* Fondo de color rojo */
-    border: 1px solid #000;
-    /* Borde color negro y de 1 píxel de grosor */
+.contenedor{
+    display: flex;
 }
 
-.cuadrado2 {
-    width: 150px;
-    /* Ancho de 150 píxeles */
-    height: 150px;
-    /* Alto de 150 píxeles */
-    background: yellow;
-    /* Fondo de color amarrilo */
-    border: 1px solid #000;
+.cuadrado{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
 }
 
-.cuadrado3 {
-    width: 150px;
-    /* Ancho de 150 píxeles */
-    height: 150px;
-    /* Alto de 150 píxeles */
-    background: green;
-    /* Fondo de color verde */
-    border: 1px solid #000;
+.rojo{
+    background-color: red;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.verde{
+    background-color: green;
 }

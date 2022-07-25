@@ -1,5 +1,6 @@
 .contenedor{
     display: flex;
+    justify-content: center;
 }
 
 .cuadrado{
@@ -18,4 +19,10 @@
 
 .verde{
     background-color: green;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }

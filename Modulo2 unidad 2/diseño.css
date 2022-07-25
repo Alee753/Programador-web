@@ -1,0 +1,35 @@
+.container-fluid {
+    background-color: rgb(99, 170, 170);
+
+}
+
+.accordion {
+    width: 25%;
+    
+}
+
+.conteiner2{
+    background-color: rgb(160, 218, 218);
+    display: flex;
+    display: inline-flex;
+    display: space-around;
+}
+.conteiner3{
+    display: flex;
+    display: inline-flex;
+    display: space-around;
+}
+.conteiner4{
+    display: flex;
+    display: flow-root;
+    display: inline-flex;
+    display: space-around;
+    width: 100%;
+    height: 60%;
+}
+.conteiner5{
+    display: flex;
+    width: 50%;
+    display: inline-flex;
+    display: space-around;
+}

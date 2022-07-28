@@ -3,21 +3,31 @@
 
 }
 
+.hero {
+  background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2017/10/23/15087415575168.jpg);  
+  background-size: cover;
+  height: 50vh;
+  min-height: 600px;
+  color: black;
+}
+
 .accordion {
     width: 25%;
     
 }
 
 .conteiner2{
-    background-color: rgb(160, 218, 218);
     display: flex;
     display: inline-flex;
-    display: space-around;
+    justify-content: center;
+    padding-left: 100px;
 }
 .conteiner3{
     display: flex;
     display: inline-flex;
-    display: space-around;
+    justify-content: center;
+    padding-left: 100px;
+
 }
 .conteiner4{
     display: flex;

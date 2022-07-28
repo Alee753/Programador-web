@@ -2,6 +2,10 @@
     background-color: rgb(99, 170, 170);
 
 }
+.conteiner-fluid2{
+    background-color: rgb(214, 208, 208);
+}
+
 
 .hero {
     background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2017/10/23/15087415575168.jpg);
@@ -29,10 +33,14 @@ h2 {
 }
 
 .foot2 {
-    text-align: center;  
-}
-.foot3{
     text-align: center;
+}
+
+.foot3 {
+    text-align: center;
+}
+footer{
+    background-color: rgb(240, 235, 235);
 }
 
 
@@ -54,7 +62,6 @@ h2 {
     justify-content: center;
     padding-left: 100px;
     padding-top: 10px;
-
 }
 
 .conteiner4 {

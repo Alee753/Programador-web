@@ -5,15 +5,19 @@
 .conteiner-fluid2{
     background-color: rgb(214, 208, 208);
 }
+a{
+    text-align: center;
+}
 
 
 .hero {
-    background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2017/10/23/15087415575168.jpg);
+    background-image: url(https://s1.eestatic.com/2020/04/28/imprescindibles/marcas_destacadas-branded_content-amazon_485962710_151110251_1706x960.jpg);
     background-size: cover;
     height: 50vh;
     min-height: 600px;
     color: black;
 }
+
 
 h2 {
     padding-top: 100px;
@@ -79,3 +83,12 @@ footer{
     display: inline-flex;
     display: space-around;
 }
+
+.dropdown{
+    display: flex;
+    display: inline-flex;
+    display: space-around;
+    padding-left: 1000px;
+    padding-top: 10px;
+}
+

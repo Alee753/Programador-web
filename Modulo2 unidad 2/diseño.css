@@ -4,6 +4,7 @@
 }
 .conteiner-fluid2{
     background-color: rgb(214, 208, 208);
+    margin-bottom: 10px;
 }
 a{
     text-align: center;
@@ -22,6 +23,21 @@ a{
 h2 {
     padding-top: 100px;
     text-align: center;
+}
+.titulo{
+    padding-right: 1000px;
+}
+
+.subtitulo3{
+    padding-left: 10px;
+    padding-right: 100px;
+}
+.subtitulo2{
+    padding-left: 10px;
+    padding-right: 500px;
+}
+li{
+    padding-left: 30px;
 }
 
 .subtitulo {
@@ -90,5 +106,15 @@ footer{
     display: space-around;
     padding-left: 1000px;
     padding-top: 10px;
+}
+
+.mapa iframe{
+    aspect-ratio: 1.2;
+    margin-left: 100px;
+}
+
+.contacto{
+    text-align: center;
+    padding-left: 100px;
 }
 

@@ -7,12 +7,249 @@
     <title>Cerveceria X</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cervezeria.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BERR X</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#novedades">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conocenos">Conocenos</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="conteiner-fluid">
+        <div id="home" class="row align-items-center hero scroll_section">
+            <div class="col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>BERR X</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia ad ipsa. Nihil harum
+                    molestias ex magni quisquam error consectetur itaque iure, eius minima eum id officia! Eos, nostrum
+                    voluptate.</p>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div id="novedades" class="col-md-5 offset-md-2 py-3 scroll_section">
+                <h2>Novedades</h2>
+                <ul class="lista-novedades">
+                    <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                                src="img/novedades01.jpg">Nuevas recetas 1</a></li>
+                    <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                                src="img/novedades01.jpg">Nuevas recetas 2</a></li>
+                    <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                                src="img/novedades01.jpg">Nuevas recetas 3</a></li>
+                    <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                                src="img/novedades01.jpg">Nuevas recetas 4</a></li>
+                    <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                                src="img/novedades01.jpg">Nuevas recetas 5</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 my-3">
+                <div class="rounded py-5 testimonios">
+                    <h2 class="texte-center">Testimonios</h2>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonios">
+                                    <h5>"La mejor birra del mundo!!!"</h5>
+                                    <p>Francisco, Monte Grande</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonios">
+                                    <h5>"La mejor birra del mundo 2!!!"</h5>
+                                    <p>Flavia, Devoteo</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonios">
+                                    <h5>"La mejor birra del mundo!!!"</h5>
+                                    <p>Erica, Lagormazino</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Nueva recetas</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>subtitulo</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam, excepturi
+                                recusandae officiis, illum quae assumenda sunt alias fuga delectus earum quidem. Vitae,
+                                voluptatum consectetur veritatis magni dolor fuga aliquid!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="historia" class="row aling-items-center py-4">
+            <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+                <img src="img/historia_1.jpg" alt="historia1" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-3 d-none d-sm-block">
+                <img src="img/historia_2.jpg" alt="historia2" class="img-fluid">
+            </div>
+            <div class="clo-12 d-sm-none">
+                <img src="img/historia_3.jpg" alt="historia3" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                <h2>Historia</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eaque exercitationem commodi
+                    incidunt quis! Accusamus nobis eius debitis molestias soluta fugit eveniet nostrum? Aspernatur odit
+                    ipsa assumenda fugit, dolor corrupti.</p>
+            </div>
+        </div>
+
+        <div id="nosotros" class="row align-items-stretch my-3 staff py-4 scroll_section">
+            <div class="col-lg-8 offset-lg-2">
+                <h2>Nosotros</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros01.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana Reyes</h5>
+                                <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+                                    provident officiis consequuntur aliquam quae repudiandae aspernatur placeat
+                                    eligendi. Ex illo doloremque distinctio tenetur modi dolorum magnam soluta sequi
+                                    quasi incidunt?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros02.jpg" class="card-img-top" alt="Carlos Mendes">
+                            <div class="card-body">
+                                <h5 class="card-title">Carlos Mendes</h5>
+                                <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+                                    provident officiis consequuntur aliquam quae repudiandae aspernatur placeat
+                                    eligendi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros03.jpg" class="card-img-top" alt="Julio Rocca">
+                            <div class="card-body">
+                                <h5 class="card-title">Julio Rocca</h5>
+                                <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+                                    provident officiis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros04.jpg" class="card-img-top" alt="Nahuel puparo">
+                            <div class="card-body">
+                                <h5 class="card-title">Nahuel puparo</h5>
+                                <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+                                    provident officiis consequuntur aliquam quae repudiandae aspernatur placeat
+                                    eligendi. Ex illo doloremque distinctio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="conocenos" class="row py-4 scroll_section">
+            <div class="col-md-4 offset-md-2">
+                <h2>Visitanos</h2>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6566.343722224869!2d-58.47625300000001!3d-34.625097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc992cedaf297%3A0x1ed03d12f796cd1f!2sMor%C3%B3n%203177%20c1406%2C%20C1406%20FVQ%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1660148042600!5m2!1ses!2sar"></iframe>
+
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mt-sm-0">
+                <h2>Contactanos</h2>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="apellido" class="formlabel">Apellido</label>
+                        <input type="text" class="form-control" id="apellido">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="tel" class="form-label">Tel</label>
+                        <input type="text" class="form-control" id="tel" placeholder="...">
+                    </div>
+                    <div class="col-12">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <p class="text-center">Diseñado por Alexis Gonzalez</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

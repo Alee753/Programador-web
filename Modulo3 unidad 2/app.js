@@ -6,6 +6,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var nosotrosRouter = require('./routes/nosotros');
+var contactoRouter = require('./routes/contacto');
 
 var app = express();
 
@@ -21,8 +23,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/nosotros', nosotrosRouter);
+app.use('/contacto', contactoRouter);
 
-app.get('/prueba', function(res,req){
+
+app.get('/prueba', function(req, res){
   res.send('hola soy la pagina de prueba')
     
 })
